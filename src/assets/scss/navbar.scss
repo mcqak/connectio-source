@@ -1,0 +1,162 @@
+@import './variables.scss';
+
+
+.navbar {
+    background-color: $dark-violet;
+    padding-top: 0;
+    padding-bottom: 0;
+    .container {
+        padding-right: 5px;
+    }
+    .navbar-brand {
+        margin-right: 0;
+        img {
+            width: 135px;
+        }
+    }
+    .nav-item {
+        .nav-link {
+            color: white;
+            font-weight: 400;
+        }
+        height: 53px;
+        display: inline-flex;
+        align-items: center;
+        &.active {
+            background-color: $light-violet;
+        }
+    }
+    .collapse{
+        & > a {
+            padding-left: 10px;
+            padding-right: 10px;
+            color: $light-gray;
+            &:last-of-type {
+                div {
+                    background-color: #BE545E;
+                    width: 20px;
+                    height: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .dropdown-item {
+        width: 335px;
+        padding-left: 60px;
+        height: 71px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &.search {
+            background-image: url("../img/search-violet.png");
+            background-position: 20px 50%;
+            background-repeat: no-repeat;
+            &.active {
+                background-image: url("../img/search-white.png");
+            }
+        }
+        &.projects {
+            background-image: url("../img/projects-violet.png");
+            background-position: 20px 50%;
+            background-repeat: no-repeat;
+            &.active {
+                background-image: url("../img/projects-white.png");
+            }
+        }
+        &.persets {
+            background-image: url("../img/persets-violet.png");
+            background-position: 20px 50%;
+            background-repeat: no-repeat;
+            &.active {
+                background-image: url("../img/persets-white.png");
+            }
+        }
+        &.active {
+            background-color: $light-violet;
+            span,
+            small {
+                color: white;
+            }
+        }
+        span {
+            font-weight: 600;
+            font-size: 14px;
+            color: $light-violet;
+        }
+        small {
+            font-size: 9px;
+            color: $light-violet;
+        }
+    }
+    .greetings {
+        display: inline-flex;
+        align-items: center;
+        color: $light-gray;
+        margin-left: 10px;
+    }
+    .profile-name {
+        .nav-link {
+            font-weight: 600;
+        }
+    }
+}
+
+@media (min-width:992px) {
+    .navbar {
+        .nav-item {
+            width: 130px;
+            text-align: center;
+            .nav-link {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .profile-name {
+            width: fit-content;
+            .nav-link {
+                
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .navbar {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        .nav-item {
+            padding-left: 20px;
+        }
+        .greetings {
+            display: none;
+        }
+    }
+
+    .navbar-collapse {
+        transition: 0s;
+        > .nav-link {
+            margin-left: 10px;
+        }
+    }
+
+    .navbar-nav {
+        .dropdown-menu {
+            width: 300px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%)
+        }
+        .dropdown-item {
+            width: 100%;
+        }
+    }
+}
+
+
+
