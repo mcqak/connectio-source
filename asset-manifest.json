@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/connectio/static/css/main.f7fe193e.chunk.css",
+    "main.js": "/connectio/static/js/main.6016eeaf.chunk.js",
+    "main.js.map": "/connectio/static/js/main.6016eeaf.chunk.js.map",
+    "runtime-main.js": "/connectio/static/js/runtime-main.1302ed3b.js",
+    "runtime-main.js.map": "/connectio/static/js/runtime-main.1302ed3b.js.map",
+    "static/css/2.6eb14f6a.chunk.css": "/connectio/static/css/2.6eb14f6a.chunk.css",
+    "static/js/2.608bc845.chunk.js": "/connectio/static/js/2.608bc845.chunk.js",
+    "static/js/2.608bc845.chunk.js.map": "/connectio/static/js/2.608bc845.chunk.js.map",
+    "index.html": "/connectio/index.html",
+    "static/css/2.6eb14f6a.chunk.css.map": "/connectio/static/css/2.6eb14f6a.chunk.css.map",
+    "static/css/main.f7fe193e.chunk.css.map": "/connectio/static/css/main.f7fe193e.chunk.css.map",
+    "static/js/2.608bc845.chunk.js.LICENSE.txt": "/connectio/static/js/2.608bc845.chunk.js.LICENSE.txt",
+    "static/media/connectio-logo.592f20fc.png": "/connectio/static/media/connectio-logo.592f20fc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1302ed3b.js",
+    "static/css/2.6eb14f6a.chunk.css",
+    "static/js/2.608bc845.chunk.js",
+    "static/css/main.f7fe193e.chunk.css",
+    "static/js/main.6016eeaf.chunk.js"
+  ]
+}
